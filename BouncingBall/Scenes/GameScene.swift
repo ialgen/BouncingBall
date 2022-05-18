@@ -155,7 +155,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 scoreLabel.update(with: score)
                 delayToScore = 0
                 permissionToScore = false
-                print("blalba")
             }
 
             if score % 100 == 0 {

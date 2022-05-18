@@ -22,8 +22,8 @@ class GameViewController: UIViewController, GKGameCenterControllerDelegate {
         super.viewDidLoad()
 
         authenticatePlayer()
-        initBanner()
-        createAndLoadInterstitialAd()
+        //initBanner()
+        //createAndLoadInterstitialAd()
 
         if let view = self.view as! SKView? {
             // Load the SKScene from 'GameScene.sks'
