@@ -93,7 +93,7 @@
 				7D574B112279986C003B908D /* ViewController */,
 				7D574B0F2279981E003B908D /* GameObjects */,
 				7D574B1022799843003B908D /* Scenes */,
-				7D574B12227998A0003B908D /* Assests */,
+				7D574B12227998A0003B908D /* Assets */,
 				7D574AF722799688003B908D /* AppDelegate.swift */,
 				7D574B0922799689003B908D /* Info.plist */,
 				7D574B192279AC7B003B908D /* Constants.swift */,
@@ -133,12 +133,12 @@
 			path = ViewController;
 			sourceTree = "<group>";
 		};
-		7D574B12227998A0003B908D /* Assests */ = {
+		7D574B12227998A0003B908D /* Assets */ = {
 			isa = PBXGroup;
 			children = (
 				7D574B0422799689003B908D /* Assets.xcassets */,
 			);
-			path = Assests;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		7D574B13227998D1003B908D /* Views */ = {

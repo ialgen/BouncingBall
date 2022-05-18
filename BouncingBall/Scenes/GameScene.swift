@@ -92,7 +92,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         replayButton = UIButton(frame: CGRect(x: frame.midX - frame.width * 0.25,
                                               y: frame.midY + frame.height / 6,
                                               width: frame.width * 0.5,
-                                              height: 40))
+                                              height: 50))
         replayButton.backgroundColor = .black
         replayButton.layer.cornerRadius = 20
         replayButton.setTitle("REPLAY", for: .normal)
@@ -104,7 +104,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         menuButton = UIButton(frame: CGRect(x: frame.midX - frame.width * 0.25,
                                             y: frame.midY - frame.height / 5,
                                             width: frame.width * 0.5,
-                                            height: 40))
+                                            height: 50))
         menuButton.backgroundColor = .black
         menuButton.layer.cornerRadius = 20
         menuButton.setTitle("MENU", for: .normal)
